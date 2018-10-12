@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  color: #8F8F8F;
+}
+
+h1 {
+  color: #505050;
+}
+
+hr {
+  display: flex;
+  border: 0;
+  width: 80%;
+  color: black;
+  background-color: black;
+  height: 1px;
+}
+
+p {
+  color: #656565;
+}
+
+.container {
+  width: 100%;
+  height: 656px;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+}
+
+.dinner_img {
+  background-image: url("dinner.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 65%;
+}
+
+.column_cadastro {
+  width: 35%;
+  padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reg_box {
+  display: flex;
+  border: 1px solid #CED4DA;
+  padding: 7px;
+  width: 80%;
+  border-radius: 3px;
+} 
+
+.btn_cadastro {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  width: 80%;
+  border-radius: 3px;
+  background-color: #39cc6c;
+  color: white;
+}
+
+.btn_login {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  width: 80%;
+  border-radius: 3px;
+  background-color: white;
+  color: #39cc6c;
+  border: 1px solid #39cc6c;
+}
+
+.btn_login:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.line {
+  display: flex;
+  width: 80%;
+  height: 1px;
+  background-color: #CED4DA;
+}
+
+.color_a {
+  color: #39cc6c;
+}
+
+a:hover {
+  color: black;
+}
