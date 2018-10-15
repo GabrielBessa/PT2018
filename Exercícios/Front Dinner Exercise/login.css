@@ -97,8 +97,8 @@ a:hover {
 }
 
 
-/* Responsive for iPhone X */
-@media (min-width: 375px) and (max-width: 667px){
+/* Responsive for mobile */
+@media (min-width: 320px) and (max-width: 1024px){
   .dinner_img {
     background-image: none;
     background-size: none;
