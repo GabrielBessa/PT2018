@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+a{
+  text-decoration: none !important; 
+  color: white !important;
+}
+
+a:hover {
+  color: yellow !important;
+}
+
+.nav_margin_left  {
+  margin-left: 4em;
+}
+
+.div_margin_backoffice  {
+  margin-left: 6em;
+  margin-top: 4em;
+}
+
+.div_margin_dinnerdash {
+  margin-left: 5em;
+
+}
+
+.div_margin_dinnerdash2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5em;
+}
+
+.right_shift{
+  padding-right: 20px;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 1em;
+}
+
+.navbar{
+  min-height: 45px;
+}
+
+.business_img {
+  background-image: url("business.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  height: 20em;
+  width: 100%;  
+  color: white;
+}
+
+.table{
+  
+  width: 100%;
+  height: 25%;
+  border-collapse: collapse;
+}
+
+.main_header{
+  background-color: #DEE2E6;
+  width: 100%;
+  color: #6B6C6D;
+}
+
+.headers th{
+  padding: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.body td{
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+
+.t_body{
+    color: #6B6C6D;
+}
+
+.entregue{
+  background-color: #28a745;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.cancelado{
+  background-color: #E82431;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+  padding: 5px;
+}
+
+.pendente{
+  background-color: #007bff;
+  border-radius: 5px;
+  color: white; 
+  margin-top: 10%;
+  text-align: center;
+  padding: 5px;
+}
+
+.footer{
+  background: #F2F2F2;
+}
+
+.font_item1{
+  color: #007bff;
+}
+
+.font_item2{
+  color: #fddf4c;
+}
+
+.font_item3{
+  color: #E82431;
+}
